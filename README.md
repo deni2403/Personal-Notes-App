@@ -35,5 +35,5 @@ $ npm run dev (Run development mode at http://localhost:5173)
 
 ## Build
 ```bash
-$ npm run build (Run development mode at http://localhost:5173)
+$ npm run build
 ```
