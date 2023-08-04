@@ -8,6 +8,9 @@ This project is for the final submission of 'Belajar Fundamental Aplikasi Web de
 - Register/Login
 - Dark Mode and Switch Language (English/Indonesian)
 
+# Live Demo :
+https://personal-notes-app-three.vercel.app/
+
 # This project was built using :
 - HTML
 - CSS
