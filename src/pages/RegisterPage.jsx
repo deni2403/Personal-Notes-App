@@ -17,6 +17,8 @@ function RegisterPage() {
     if (!error) {
       setIsLoading(false);
       navigate("/");
+    } else {
+      setIsLoading(false);
     }
   }
 

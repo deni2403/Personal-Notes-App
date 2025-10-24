@@ -18,6 +18,8 @@ function LoginPage({ loginSucess }) {
     if (!error) {
       loginSucess(data);
       setIsLoading(false);
+    }else {
+      setIsLoading(false);
     }
   }
 
