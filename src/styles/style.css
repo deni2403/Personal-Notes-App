@@ -269,6 +269,31 @@ main {
   color: var(--on-background);
 }
 
+.loading-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 24px;
+  color: var(--on-background);
+}
+
+.loading-indicator .spinner {
+  width: 36px;
+  height: 36px;
+  border: 4px solid var(--on-background-grey);
+  border-top-color: var(--on-background);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 @media screen and (min-width: 650px) {
   .notes-list {
     grid-template-columns: repeat(2, 1fr);
